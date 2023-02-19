@@ -2,6 +2,7 @@ import React from "react";
 import HomeScreen from "./screens/HomeScreen";
 import SignIn from "./screens/SignIn";
 import SignUp from "./screens/SignUp";
+import AllEvents from "./screens/AllEvents";
 import {StyleSheet, TouchableOpacity, Text, View, Button, Alert} from 'react-native';
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
@@ -23,6 +24,10 @@ export default function App() {
         <Stack.Screen
         name="SignUp"
         component={SignUp}        
+        />
+        <Stack.Screen
+        name="AllEvents"
+        component={AllEvents}        
         />
       </Stack.Navigator>
     </NavigationContainer>
