@@ -2,21 +2,13 @@ import { NavigationContainer } from '@react-navigation/native';
 import React from 'react';
 import {StyleSheet, TouchableOpacity, Text, View, Button, Alert} from 'react-native';
 
-export default function HomeScreen( { navigation }) {
+export default function SignUp( { navigation }) {
     return (
         <View
             style={styles.container}>
                 <Text style={styles.titleText}>
-                    Frolic
+                    SIGN UP BITCH
                 </Text>
-                <Button style = {styles.button}
-                title = "Sign In"
-                onPress={() => navigation.navigate("SignIn")}
-                />
-                <Button style = {styles.button}
-                title = "Sign Out"
-                onPress={() => navigation.navigate("SignUp")}
-                />
             </View>
     );
 };

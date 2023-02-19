@@ -1,5 +1,7 @@
 import React from "react";
 import HomeScreen from "./screens/HomeScreen";
+import SignIn from "./screens/SignIn";
+import SignUp from "./screens/SignUp";
 import {StyleSheet, TouchableOpacity, Text, View, Button, Alert} from 'react-native';
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
@@ -13,6 +15,14 @@ export default function App() {
         <Stack.Screen
         name="Home"
         component={HomeScreen}        
+        />
+        <Stack.Screen
+        name="SignIn"
+        component={SignIn}        
+        />
+        <Stack.Screen
+        name="SignUp"
+        component={SignUp}        
         />
       </Stack.Navigator>
     </NavigationContainer>
