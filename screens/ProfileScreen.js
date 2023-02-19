@@ -1,8 +1,8 @@
 import React from 'react';
 import {StyleSheet, TouchableOpacity, Text, View, Button, Alert} from 'react-native';
 import Profile from '../Classes/Profile'
-
-const Profile = () => {
+/**
+ * const Profile = () => {
     return (
         <View>
             <View>
@@ -23,6 +23,19 @@ const Profile = () => {
         </View>
     );
 };
+ * @returns 
+ */
+
+export default function Profile( {you} ) {
+    return (
+        <View>
+            <Text style={styles.titleText}>
+                My Profile
+            </Text>
+        </View>
+    );
+}
+
 
 const styles = StyleSheet.create({
     titleText: {
@@ -36,4 +49,3 @@ const styles = StyleSheet.create({
         justifyContent: center
     }
 });
-export default Profile;
