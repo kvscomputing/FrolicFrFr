@@ -14,7 +14,7 @@ export default function HomeScreen( { navigation }) {
                 onPress={() => navigation.navigate("SignIn")}
                 />
                 <Button style = {styles.button}
-                title = "Sign Out"
+                title = "Sign Up"
                 onPress={() => navigation.navigate("SignUp")}
                 />
             </View>
