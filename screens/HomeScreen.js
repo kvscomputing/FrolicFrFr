@@ -35,6 +35,7 @@ const styles = StyleSheet.create({
     },
     titleText: {
       fontFamily: 'Times New Roman',
-      fontSize: 30
+      fontSize: 30,
+      marginBottom: 40,
     }
 });
