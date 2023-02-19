@@ -22,7 +22,7 @@ export default function SignIn() {
             style={styles.TextInput}
             placeholder="Password"
             placeholderTextColor="#003f5c"
-            onChangeText={(email) => setEmail(email)}
+            onChangeText={(password) => setPassword(password)}
         />
         </View>
 
