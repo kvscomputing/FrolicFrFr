@@ -1,15 +1,9 @@
 import React from 'react';
+import {StyleSheet, View} from 'react-native';
 
 export default class Event {
-    title: string;
-    description: string;
-    numPeople: number;
-    maxPeople: number;
-    time: string;
-    initiator: string;
-
-    constructor(title: string, description: string, numPeople: number, 
-        maxPeople: number, time: string, initiator: string) {
+    constructor(title, description, numPeople, 
+        maxPeople, time, initiator) {
             this.title = title;
             this.description = description;
             this.numPeople = numPeople;
@@ -17,4 +11,15 @@ export default class Event {
             this.time = time;
             this.initiator = initiator;
     }
+
+    render() {
+        return (
+            <View>
+            </View>
+        );
+    }
 }
+
+const styles = StyleSheet.create({
+
+});
