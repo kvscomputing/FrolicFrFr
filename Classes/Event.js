@@ -15,6 +15,9 @@ export default class Event {
     render() {
         return (
             <View>
+                <Text>
+                    {this.initiator.firstName} + {}
+                </Text>
             </View>
         );
     }

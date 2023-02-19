@@ -10,7 +10,6 @@ export default function AllEvents( { navigation } ) {
                     AllEvents
                 </Text>
             </View>
-            
     );
 };
 

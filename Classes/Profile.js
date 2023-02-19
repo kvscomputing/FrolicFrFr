@@ -1,13 +1,8 @@
 import React from 'react';
 
 export default class Profile {
-    firstName: string;
-    lastName: string;
-    email: string;
-    phone: string;
-    friends: string[];
-    constructor(firstName: string, lastName: string, email: string, 
-        phone: string, friends: string[]) {
+    constructor(firstName, lastName, email, 
+        phone, friends) {
             this.firstName = firstName;
             this.lastName = lastName;
             this.email = email;
@@ -15,7 +10,11 @@ export default class Profile {
             this.friends = friends;
     }
 
-    addFriend(newFriend: string) : void {
+    get name() {
+        return this.firstName + ' ' + this.lastName[0];
+    }
+
+    addFriend(newFriend) {
         var length;
         length = this.friends.push(newFriend);
     }
