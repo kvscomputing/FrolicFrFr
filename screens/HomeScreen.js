@@ -1,6 +1,10 @@
 import React from 'react';
 import {StyleSheet, TouchableOpacity, Text, View, Button, Alert} from 'react-native';
 
+/**
+ * 
+ * @returns 
+ */
 const HomeScreen = () => {
     return (
         <View
