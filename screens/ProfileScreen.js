@@ -2,7 +2,7 @@ import React from 'react';
 import {StyleSheet, TouchableOpacity, Text, View, Button, Alert} from 'react-native';
 import Profile from '../Classes/Profile'
 
-const Profile = (you) => {
+const Profile = () => {
     return (
         <View>
             <View>
@@ -11,9 +11,14 @@ const Profile = (you) => {
             </Text>
         </View>
         <View>
+            <View>
             <Text style={styles.bodyText}>
                 Name: 
             </Text>
+            <Text style={styles.bodyText}>
+                Username:
+            </Text>
+            </View>
         </View>
         </View>
     );

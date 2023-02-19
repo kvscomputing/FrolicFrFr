@@ -16,5 +16,5 @@ export default class Event {
             this.maxPeople = maxPeople;
             this.time = time;
             this.initiator = initiator;
-        }
+    }
 }
