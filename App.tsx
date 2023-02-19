@@ -14,18 +14,18 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen
-        name="Home"
+        name="Home" 
         component={HomeScreen}        
         />
-        <Stack.Screen
+        <Stack.Screen 
         name="SignIn"
         component={SignIn}        
         />
-        <Stack.Screen
+        <Stack.Screen 
         name="SignUp"
         component={SignUp}        
         />
-        <Stack.Screen
+        <Stack.Screen 
         name="AllEvents"
         component={AllEvents}        
         />
