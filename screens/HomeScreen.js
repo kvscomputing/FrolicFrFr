@@ -1,11 +1,12 @@
 import { NavigationContainer } from '@react-navigation/native';
 import React from 'react';
-import {StyleSheet, TouchableOpacity, Text, View, Button, Alert} from 'react-native';
+import {StyleSheet, Image, TouchableOpacity, Text, View, Button, Alert} from 'react-native';
 
 export default function HomeScreen( { navigation }) {
     return (
         <View
             style={styles.container}>
+                <Image style={styles.image} source={require("/Users/kvseetharaman/frolic/images/Image.png")}/> 
                 <Text style={styles.titleText}>
                     Frolic
                 </Text>
@@ -26,6 +27,12 @@ const styles = StyleSheet.create({
       flex: 1,
       justifyContent: 'center',
       alignItems: 'center',
+      backgroundColor: '#FFFFFF'
+    },
+    image: {
+        marginBottom: 20,
+        width: 135,
+        height: 120,
     },
     button: {
       alignItems: 'center',

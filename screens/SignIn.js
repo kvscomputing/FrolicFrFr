@@ -40,6 +40,9 @@ const styles = StyleSheet.create({
       justifyContent: 'center',
       alignItems: 'center',
     },
+    image: {
+      marginBottom: 40,
+    },
     button: {
       alignItems: 'center',
       backgroundColor: '#DDDDDD',
@@ -77,5 +80,6 @@ const styles = StyleSheet.create({
       marginTop: 40,
       backgroundColor: "#FF1493",
     },
+    
 
 });
