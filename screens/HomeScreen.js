@@ -27,12 +27,12 @@ const styles = StyleSheet.create({
       flex: 1,
       justifyContent: 'center',
       alignItems: 'center',
-      backgroundColor: '#FFFFFF'
+      backgroundColor: '#000000'
     },
     image: {
         marginBottom: 20,
-        width: 135,
-        height: 120,
+        width: 260,
+        height: 240,
     },
     button: {
       alignItems: 'center',
@@ -41,8 +41,9 @@ const styles = StyleSheet.create({
       marginBottom: 10,
     },
     titleText: {
-      fontFamily: 'Times New Roman',
-      fontSize: 30,
+      fontFamily: 'Cochin',
+      fontSize: 40,
+      color: '#FFFFFF',
       marginBottom: 40,
     }
 });
