@@ -3,7 +3,7 @@ import React from 'react';
 import { useState } from 'react';
 import {StyleSheet, TouchableOpacity, Text, TextInput, View, Image, Button, Alert} from 'react-native';
 
-export default function SignIn() {
+export default function SignIn( {navigation} ) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   return (
@@ -25,13 +25,11 @@ export default function SignIn() {
             onChangeText={(password) => setPassword(password)}
         />
         </View>
+        <Button style = {styles.loginBtn}
+                title = "LOGIN"
+                onPress={() => navigation.navigate("AllEvents")}
+                />
 
-        <TouchableOpacity>
-        <Text style={styles.forgot_button}>Forgot Password?</Text> 
-        </TouchableOpacity> 
-        <TouchableOpacity style={styles.loginBtn}>
-        <Text style={styles.loginText}>LOGIN</Text> 
-        </TouchableOpacity>
     </View>
     );
 };
