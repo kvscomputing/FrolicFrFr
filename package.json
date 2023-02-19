@@ -10,7 +10,9 @@
     "test": "jest"
   },
   "dependencies": {
-    "react": "18.2.0",
+    "@types/react-dom": "^18.0.11",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-native": "0.71.3"
   },
   "devDependencies": {
@@ -20,7 +22,7 @@
     "@react-native-community/eslint-config": "^3.2.0",
     "@tsconfig/react-native": "^2.0.2",
     "@types/jest": "^29.2.1",
-    "@types/react": "^18.0.24",
+    "@types/react": "^18.0.28",
     "@types/react-test-renderer": "^18.0.0",
     "babel-jest": "^29.2.1",
     "eslint": "^8.19.0",
